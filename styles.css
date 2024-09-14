@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(218, 247, 166);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    width: 100vw;
+    background-color: rgb(208, 245, 139);
+}
+
+nav ul {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainDiv {
+    display: inline-block;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.mainright {
+    height: 500px;
+    width: 500px;
+    background-image: url("profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.indexTable {
+    width: 100%;
+    text-align:center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(217, 253, 150);
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+a:hover {
+    font-weight: 500;
+}
+
+.aboutDiv {
+    padding: 25px;
+}
+
+.intoaboutDiv {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.aboutleft li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.aboutright li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.contactDiv {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+.contactTable {
+    width: 50%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset]{
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.mainProject {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 500px;
+    width: 500px;
+}
+
+img {
+    height: 350px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius:25px;
+}
+
+.resume {
+    background-color: black;
+    color: rgb(208, 245, 139);
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.resume:hover {
+    background-color: rgb(208, 245, 139);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+footer {
+    width: 100vw;
+    bottom: 0;
+    padding: 25px;
+    background-color: rgb(34, 33, 29);
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    justify-content: center;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+}
